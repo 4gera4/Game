@@ -1,0 +1,132 @@
+body {
+	background-color: #f0cdeb;
+}
+/* кнопка старт */
+a.buttons {
+  width: 150px;
+  height: 30px;
+  text-decoration: none;
+  padding-top: 9px;
+  color: #a675b3;
+  text-align: center;
+  line-height: 20px;
+  display: block;
+  margin: 20px auto;
+  font: normal 17px arial;
+}
+
+a.buttons:not(.active) {
+  box-shadow: inset 0 1px 1px rgba(111, 55, 125, 0.8), inset 0 -1px 0px rgba(63, 59, 113, 0.2), 0 9px 16px 0 rgba(0, 0, 0, 0.3), 0 4px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px #150a1e;
+  background-image: linear-gradient(#3b2751, #271739);
+  text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 -1px 0 #311d47;
+}
+
+a.buttons:not(.active):hover,
+a.buttons:not(.active):focus {
+  transition: color 200ms linear, text-shadow 500ms linear;
+  color: #fff;
+  text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 0 10px rgba(223, 206, 228, 0.4), 0 0 2px #2a153c;
+}
+a.buttons:not(:hover) {
+    transition: 0.6s;
+}
+
+/* кнопка ещё */
+
+a.green{
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+color: #fff;
+display:block;
+width:100px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+padding: 8px 16px;
+margin: auto;
+text-decoration: none;
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+-webkit-transition: background-color 0.1s linear;
+-moz-transition: background-color 0.1s linear;
+-o-transition: background-color 0.1s linear;
+transition: background-color 0.1s linear;        
+}
+a.green {
+background-color: rgb( 43, 153, 91 );
+border: 1px solid rgb( 33, 126, 74 );
+}
+        
+a.green:hover {
+background-color: rgb( 75, 183, 141 );
+}
+
+.my-button{
+    border-radius: 5px;
+    border: 1px solid #000;
+	height: 8vh;
+	width: 10vh;
+    background: #e36ed5;
+    cursor: pointer;
+}
+
+/* моё */
+
+@font-face {
+font-family: txtt; 
+src: url(fonts/shrift.ttf) format(truetype); 
+font-style: normal; 
+font-weight: normal; 
+}
+#inBanner {
+	top:5vh;
+	position: relative;
+}
+#bnnr {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+	/* border: solid 3px black; */
+	border-radius: 30px;
+	width: 40vh;
+	height: 12vh;
+	font-family: txtt; 
+	font-size: 120%;
+}
+
+   img.prmr {
+	   width: 12vw;
+   }
+@font-face {
+font-family: numbers; 
+src: url(fonts/numbers.ttf) format(truetype); 
+font-style: normal; 
+font-weight: normal; 
+} 
+p.prmr {
+	 width: 20vw;
+	font-family: numbers; 
+	font-size: 1000%;
+}
+ 
+ 
+ .zifr {
+	font-family: numbers;  
+	font-size: 10vh;
+ }
+ #pupa {
+width: 40vw;
+	 position: relative;
+margin-left: auto;
+margin-right: auto;
+left:0;
+top: 6vh;
+
+ }
+ #gotovo {
+	 font-size: 3vh;
+	 color: #942ac3;
+ }
+ 

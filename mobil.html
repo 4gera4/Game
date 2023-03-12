@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+    <meta charset="utf-8" />
+   <title>Site</title>
+   <link rel="stylesheet" href="rr.css">
+     <script src="rzhaka.js"></script>
+ </head>
+ <body onload="GetMults()">
+ <div class="banner"><p align="center" id="bnnr"><span id="inBanner"></span></p></div>
+  <table id="rr" style="margin-left: auto; margin-right: auto; position: relative;">
+  <tr>
+  <td><p class="prmr" align="center" id="num1">3</p></td>
+    <td><img class="prmr"  src="photo/3.PNG"/></td>
+    <td><p class="prmr" align="center" align="center" id="num2">2</p></td>
+	    <td><img class="prmr" src="photo/5.PNG"/></td>
+		<td><p class="prmr" align="center"  id="res"><span id="res1">?</span><span id="res2"></span></p></td>
+  </tr>
+  </table>
+  <a href="#" onclick="GetMults()" class="green">Ещё!</a>
+  <div id="pupa">
+  <table style="margin-left: auto; margin-right: auto; position: relative;" class="zifr">
+  <tr><td><a style="color: pink" onclick="nazhal(1)">1</a></td><td><a style="color: #00CED1"  onclick="nazhal(2)">2</a></td><td><a style="color: #8B0000" onclick="nazhal(3)">3</a></td></tr>
+    <tr><td><a style="color: #0000CD" onclick="nazhal(4)">4</a></td><td><a style="color: #00FF7F"  onclick="nazhal(5)">5</a></td><td><a style="color: #FF1493"  onclick="nazhal(6)">6</a></td></tr>
+	  <tr><td><a style="color: #9400D3"  onclick="nazhal(7)">7</a></td><td><a style="color: #D2691E"  onclick="nazhal(8)">8</a></td><td><a style="color: #FFFF00"  onclick="nazhal(9)">9</a></td></tr>
+	  <tr><td><a style="color: #2F4F4F" onclick="nazhal(0)">0</a></td> <td id="gotovo" colspan="2" onclick="nazhal(11)">Готово!</td></tr>
+  </table>
+  </div>
+ </body> 
+</html>
